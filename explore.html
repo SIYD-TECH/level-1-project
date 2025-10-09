@@ -78,6 +78,15 @@
        p{
         margin: 0;
        }
+
+       .hover-parent:hover .hover{
+            display: block !important;
+            cursor: pointer;
+       }
+
+       .hover-parent{
+         transition: hover ease-in 250s;
+       }
     </style>
 </head>
 <body>
@@ -498,25 +507,59 @@
     </header>
 
 
-    <section>
+    <section class="mb-5">
         <div class="container-fluid">
             <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4" style="font-size: 12px;">
-                <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img1.webp" alt="" class="img-fluid w-100">
+                <div class="col ">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_68_a34401227270615.Y3JvcCwyNTQ4LDE5OTMsNjksMzcy.jpg" alt="" class="img-fluid w-100">
                     </div>
-                    <div>
+                    <div class="d-flex justify-content-between">
                         <div>
                             <p>Real Estate Website - About Us</p>
                             <p>Uix Shuvo</p>
                         </div>
-                        <div></div>
+                        <div class="d-flex">
+                            <div>
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                    <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img2.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_214_7dccf0215048073.Y3JvcCwxMjcwLDk5Myw2MzIsMzY3.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -528,8 +571,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img3.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_233_21470a235407575.Y3JvcCwxMTkyLDkzMywxMDMsMA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -540,8 +593,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img4.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_248_d74c91225986921.Y3JvcCwxMjA1LDk0Myw1MjIsNzQ.png" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -553,8 +616,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img5.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_262_1cc2e4225344403.Y3JvcCwxNDAwLDEwOTUsMCwzNA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -569,8 +642,18 @@
 
             <!-- <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-1"> -->
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img6.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_281_c98a11214866909.Y3JvcCwxMTkyLDkzMyw2Miww.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -582,8 +665,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img7.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_271_f22b19230676227.Y3JvcCwxMjg3LDEwMDYsMzE4LDY.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -595,8 +688,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img8.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_300_a34401227270615.Y3JvcCwyNTQ4LDE5OTMsNjksMzcy.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -608,8 +711,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_329_d3fab7198413165.Y3JvcCwxODQxLDE0NDAsNDEwLDE2MDk.png" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -621,8 +734,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_339_210d1b235323743.Y3JvcCw0MjYzLDMzMzUsMjg0LDA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -637,8 +760,18 @@
 
             <!-- <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-1"> -->
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_52_e70de7234478379.Y3JvcCwxMTk1LDkzNSw4LDA.png" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -650,8 +783,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/img15.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -663,8 +806,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_377_da0b17204604907.Y3JvcCwxMzAzLDEwMTksODcsNjQ.png" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -676,8 +829,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_349_d0441a212406227.Y3JvcCw4MjMsNjQzLDI4NSw5Nw.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -689,8 +852,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_252_656981205263881.Y3JvcCw4MzMsNjUxLDI4NCw2OA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -705,8 +878,18 @@
 
             <!-- <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-1"> -->
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_34_d9ce31235504041.Y3JvcCw5NDAsNzM1LDE0OCwzNzA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>THE FASHION ICONS SERIES VOL.01</div>
@@ -715,8 +898,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_359_ae3f25228792387.Y3JvcCw0MDQsMzE2LDI2Myww.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -728,8 +921,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_40_9b00b4216771617.Y3JvcCwxMjg3LDEwMDYsNjMwLDM1.png" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -741,8 +944,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="max-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="max-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_319_0dca7f146256427.Y3JvcCwxMDY3LDgzNSwxNjYsMA.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -754,8 +967,18 @@
                 </div>
 
                 <div class="col">
-                    <div style="min-width: 100%;">
-                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
+                    <div style="min-width: 100%;" class="position-relative hover-parent">
+                        <div class="d-none hover" style="background-color: rgba(0, 0, 0, 0.444); width: 100% ; height: 100%; position: absolute;">
+                            <p class="fs-6 text-white rounded-pill px-3 py-1 m-2 d-flex align-items-center gap-2" style="background-color: #191919c2; width: fit-content;">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                                    <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                                </svg>
+                                Save
+                            </p>
+                        </div>
+                        <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_31_90ec33234351827.Y3JvcCwyNzE3LDIxMjUsMCw0NDM.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div>
                         <div>
@@ -765,41 +988,6 @@
                         <div></div>
                     </div>
                 </div>
-            <!-- </div> -->
-           
-
-            <!-- <div>
-
-            </div>
-            <div>
-                <div>
-                    <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid w-100">
-                </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid">
-                </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <img src="./Showcase, Discover, and Hire Creatives __ Behance/imgi_9_9.webp" alt="" class="img-fluid">
-                </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -845,7 +1033,7 @@
      <div class="py-3 mb-0 bg-white shadow-lg d-flex align-items-center justify-content-center text-center">
             <p class="mb-0"> <span class="fw-bold">Upgrade to Behance Pro today:</span> Get advanced analytics, a custom portfolio website, and more features to grow your creative career. <span class="fw-bold text-primary">Start your 7 day free trial</span></p>
     </div>
-     <footer class="py-5 " style="background-color: #191919;">   
+     <footer class="py-5" style="background-color: #191919;">   
         <div class="text-white d-flex flex-column flex-lg-row gap-4  justify-content-around my-5 footer px-5" >
             <div class="col-lg-3 col-12 text-center">
                 <h2 class="fs-1 fw-bold">BEHANCE</h2>
@@ -916,7 +1104,7 @@
                 <span>Privacy</span>
                 <span>Community</span>
                 <span>Cookie preferences</span>
-                <span class="">Do not sell or share my personal information</span>
+                <span class="h">Do not sell or share my personal information</span>
             </div>
         </div>
      </footer>
